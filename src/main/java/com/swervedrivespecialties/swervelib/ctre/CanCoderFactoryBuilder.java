@@ -50,7 +50,7 @@ public class CanCoderFactoryBuilder {
 
         @Override
         public double getAbsoluteAngle() {
-            double angle = Math.toRadians(encoder.getPosition());
+            double angle = Math.toRadians(encoder.getAbsolutePosition());
 
             ErrorCode code = encoder.getLastError();
 
@@ -59,7 +59,7 @@ public class CanCoderFactoryBuilder {
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) { }
-                angle = Math.toRadians(encoder.getPosition());
+                angle = Math.toRadians(encoder.getAbsolutePosition());
                 code = encoder.getLastError();
             }
 
