@@ -177,7 +177,7 @@ public final class Falcon500SteerControllerFactoryBuilder {
 
         private double referenceAngleRadians = 0.0;
 
-        private double resetIteration = 500;
+        private double resetIteration = ENCODER_RESET_ITERATIONS;
 
         private ControllerImplementation(WPI_TalonFX motor,
                 double motorEncoderPositionCoefficient,
