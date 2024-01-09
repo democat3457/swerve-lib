@@ -2,6 +2,7 @@
   "fileName": "SdsSwerveLib.json",
   "name": "swerve-lib",
   "version": "2024.0.1.0",
+  "frcYear": "2024",
   "uuid": "9619F7EA-7F96-4236-9D94-02338DFED592",
   "mavenUrls": [
     "https://jitpack.io"
