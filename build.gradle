@@ -10,7 +10,7 @@ java {
 
 allprojects {
     group 'com.swervedrivespecialties'
-    version '2024.1.1.0'
+    version '2024.1.1.1'
 
     repositories {
         mavenCentral()
