@@ -7,7 +7,7 @@
   "mavenUrls": [
     "https://jitpack.io"
   ],
-  "jsonUrl": "https://raw.githubusercontent.com/democat3457/swerve-lib/prod/SdsSwerveLib.json",
+  "jsonUrl": "https://raw.githubusercontent.com/democat3457/swerve-lib/beta/SdsSwerveLib.json",
   "javaDependencies": [
     {
       "groupId": "com.github.democat3457",
